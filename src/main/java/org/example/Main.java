@@ -7,7 +7,6 @@
 //5)Вывести на консоль каталог продуктов. (все продукты магазина)
 //6)Вывести на консоль покупки посетителей магазина. (После покупки у пользователя добавляется товар, а из магазина - удаляется)
 package org.example;
-import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
