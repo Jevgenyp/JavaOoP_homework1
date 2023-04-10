@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59c9820b-ed56-4594-a14a-b94a014a9953" name="Changes" comment="homework1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson4OOp/BoxWithNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson4OOp/Calc2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson4OOp/Employer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson4OOp/GenBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson4OOp/LRUCashe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson4OOp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson4OOp/SimpleBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework4/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/homework4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
