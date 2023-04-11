@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59c9820b-ed56-4594-a14a-b94a014a9953" name="Changes" comment="lesson5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Interfaces/CeoDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Interfaces/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Interfaces/SupervisorDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Model/Acountant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Model/Ceo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Model/DataEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Model/SupplyChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Service/AcountantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Service/CeoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Service/SupplyChainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/View/AcountantView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/View/CeoView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/View/SupplyChainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="59c9820b-ed56-4594-a14a-b94a014a9953" name="Changes" comment="Company Data App">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/homeworkDataProgram/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681128906386</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Company Data App">
+      <created>1681241158895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681241158896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +154,7 @@
     <MESSAGE value="homework4 ready" />
     <MESSAGE value="homework4 ready2" />
     <MESSAGE value="lesson5" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
+    <MESSAGE value="Company Data App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Company Data App" />
   </component>
 </project>

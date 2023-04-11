@@ -45,7 +45,7 @@ public class Controller {
 
         CeoView ceoView = new CeoView();
         ceoView.viewAll(DataEmployee.getEmployeeList());
-        System.out.println(ceo);
+        System.out.println(DataEmployee.getEmployeeList());
 
         AcountantView acountantView = new AcountantView();
         acountantView.viewSalary(DataEmployee.getSalaryList());
