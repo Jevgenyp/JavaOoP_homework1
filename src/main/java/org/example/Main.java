@@ -1,80 +1,99 @@
-//Домашнее задание на закрепление:
-//
-//1)Создать класс Товар, имеющий переменные имя, цена, рейтинг.
-//2)Создать класс Категория, имеющий переменные имя и массив товаров. Создать несколько объектов класса Категория.
-//3)Создать класс Basket, содержащий массив купленных товаров.
-//4)Создать класс User, содержащий логин, пароль и объект класса Basket. Создать несколько объектов класса User.
-//5)Вывести на консоль каталог продуктов. (все продукты магазина)
-//6)Вывести на консоль покупки посетителей магазина. (После покупки у пользователя добавляется товар, а из магазина - удаляется)
 package org.example;
+
+import org.example.Data.SuppliersDatabase;
+import org.example.Data.Warehouse;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // Create some products
-        Product product1 = new Product("Product 1", 10.0, 5,new Category("Category1"));
-        Product product2 = new Product("Product 2", 20.0, 4,new Category("Category1"));
-        Product product3 = new Product("Product 3", 30.0, 3,new Category("Category2"));
-        Product product4 = new Product("Product 4", 40.0, 2,new Category("Category2"));
-        Product product5 = new Product("Product 5", 50.0, 1,new Category("Category3"));
 
-        // Create some categories and add products to them
-        Category category1 = new Category("Category 1");
-        category1.addProduct(product1);
-        category1.addProduct(product2);
+        // блок инициализации первичных данных для тестирования
 
-        Category category2 = new Category("Category 2");
-        category2.addProduct(product3);
-        category2.addProduct(product4);
+        org.example.Category category1 = new org.example.Category("fragile");
+        org.example.Category category2 = new Category("not fragile");
 
-        Category category3 = new Category("Category 3");
-        category3.addProduct(product5);
+        Supplier supplier1 = new Supplier("Halls");
+        Supplier supplier2 = new Supplier("EatMe");
+        Supplier supplier3 = new Supplier("Dirk");
+        Supplier supplier4 = new Supplier("AlbertHein");
 
-        // Create some users with baskets
-        Basket basket1 = new Basket();
-        User user1 = new User("user1", "password1", basket1);
+        Product product1 = new Product("Avocado", 5, 350.0, "b2",
+                category2, "09.04.2023", supplier1);
+        Product product2 = new Product("Apple", 24, 160.0, "c10",
+                category2, "07.04.2023", supplier3);
+        Product product3 = new Product("Alcohol", 4, 1000.0, "a3",
+                category1, "09.04.2023", supplier2);
+        Product product4 = new Product("Ice cream", 9, 236.0, "b4",
+                category2, "08.04.2023", supplier1);
+        Product product5 = new Product("Bananas", 3, 400.0, "a6",
+                category2, "09.04.2023", supplier1);
 
+        Warehouse warehouse = new Warehouse();
 
+        SuppliersDatabase suppliersDatabase = new SuppliersDatabase();
 
-        // Add some products to user baskets
-
-        user1.addProductToBasket(product1);
-        user1.addProductToBasket(product3);
-        user1.addProductToBasket(product4);
-        user1.addProductToBasket(product5);
-
-        // Print the products in each category
-        System.out.println("Products in Category 1:");
-        for (Product p : category1.getProducts()) {
-            System.out.println(p);
-        }
-
-        System.out.println("Products in Category 2:");
-        for (Product p : category2.getProducts()) {
-            System.out.println(p);
-        }
-
-        System.out.println("Products in Category 3:");
-        for (Product p : category3.getProducts()) {
-            System.out.println(p);
-        }
-        // update the store's inventory
-        for (Product p : user1.getBasket().getProducts()) {
-            category1.removeProduct(p);
-        }
-
-        // Print the products in each user's basket
-        System.out.println("Products in User 1's Basket:");
-        for (Product p : user1.getBasket().getProducts()) {
-            System.out.println(p);
-        }
-        System.out.println("Products in Category 1:");
-        for (Product p : category1.getProducts()) {
-            System.out.println(p);
-        }
+        Employee employee = new Employee("Ivan Vakulenko", "12345");
+        Director director = new Director("Igor Sidorov", "1234");
+        director.setListOfSuppliers(suppliersDatabase);
 
 
+        // проверка методов и связей
 
+        System.out.println("Заполняем склад товарами");
+
+        warehouse.addProduct(product1);
+        warehouse.addProduct(product2);
+        warehouse.addProduct(product3);
+        warehouse.addProduct(product4);
+        warehouse.addProduct(product5);
+        System.out.println(warehouse.getProductList());
+
+        System.out.println();
+        System.out.println("Выполняем поиск по названию товара");
+        System.out.println(warehouse.findProductByName("plate"));
+
+        System.out.println();
+        System.out.println("Выполняем поиск по поставщику");
+        System.out.println(warehouse.findProductBySupplier(supplier1));
+
+        System.out.println();
+        System.out.println("Выполняем поиск по категории");
+        List<Product> fragileList = warehouse.findProductByCategory(category1);
+        List<Product> notFragileList = warehouse.findProductByCategory(category2);
+        System.out.println(fragileList.toString());
+        System.out.println(notFragileList.toString());
+
+        System.out.println();
+        System.out.println("Создаем отгрузку от имени сотрудника");
+        employee.createShipment(fragileList, new FragilePacking());
+
+        System.out.println();
+        System.out.println("Создаем отгрузку от имени директора");
+        director.createShipment(notFragileList, new NotFragilePacking());
+
+        System.out.println();
+        System.out.println("Проверяем функционал склада: удаляем товар, меняем количество, проверяем количество " +
+                           "товаров на остатке. Выводим обновленный список");
+        warehouse.deleteProduct(product1);
+        warehouse.checkBalance(product2);
+        warehouse.changeProductCount(product4, 7);
+        System.out.println(warehouse.getProductList());
+
+        System.out.println();
+        System.out.println("Добавляем поставщиков в базу от имени директора");
+        director.addNewSupplier(supplier1);
+        director.addNewSupplier(supplier2);
+        director.addNewSupplier(supplier3);
+        director.addNewSupplier(supplier4);
+
+        System.out.println(director.getListOfSuppliers());
+
+        System.out.println();
+        System.out.println("Удаляем поставщика из базы от имени директора");
+        director.deleteNewSupplier(supplier4);
+
+        System.out.println(director.getListOfSuppliers());
 
     }
-
 }
