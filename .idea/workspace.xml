@@ -4,51 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59c9820b-ed56-4594-a14a-b94a014a9953" name="Changes" comment="Company Data App1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Adapter/meteo/MS200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Adapter/meteo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Adapter/meteo/MeteoAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Adapter/meteo/MeteoSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Adapter/meteo/MeteoStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Adapter/meteo/ST500Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Adapter/meteo/SensorTemperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/Calculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/CalculableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/ICalculableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/LogFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/Loggable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/LoggerCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/Calculator/Calculator/ViewCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/JobAgency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/Junior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Lesson7/JobAgency/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Data/SuppliersDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Data/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FragilePacking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interface/Packing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interface/Searchable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interface/Suppliers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interface/WarehouseOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NotFragilePacking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example1/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example1/Product.java" afterDir="false" />
+    <list default="true" id="59c9820b-ed56-4594-a14a-b94a014a9953" name="Changes" comment="WarehouseHomework6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Exception/DivideByZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Exception/MathExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Logging/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Logging/Logtxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Logging/Saving.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Operations/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Operations/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Operations/Model1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Operations/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Operations/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Operations/Summarize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/Presentation/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/View/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/calculator/View/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example1/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example1/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,25 +65,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Jev/IdeaProjects/JavaOoP_homework1/src/main/java/org/Homework6",
+    "last_opened_file_path": "C:/Users/Jev/IdeaProjects/JavaOoP_homework1/src/main/java/org/calculator",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.calculator" />
       <recent name="org.Lesson7.Adapter.meteo" />
       <recent name="org.homeworkDataProgram.Interfaces" />
       <recent name="org.homework2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org\calculator" />
       <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org\Homework6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org\calculator" />
       <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org\Lesson7\Adapter" />
       <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org\Lesson7\JobAgency" />
       <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org\Lesson7\Calculator" />
       <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org" />
-      <recent name="C:\Users\Jev\IdeaProjects\JavaOoP_homework1\src\main\java\org\codes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -178,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681241562724</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="WarehouseHomework6">
+      <created>1681928441693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928441693</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +197,7 @@
     <MESSAGE value="lesson5" />
     <MESSAGE value="Company Data App" />
     <MESSAGE value="Company Data App1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Company Data App1" />
+    <MESSAGE value="WarehouseHomework6" />
+    <option name="LAST_COMMIT_MESSAGE" value="WarehouseHomework6" />
   </component>
 </project>
